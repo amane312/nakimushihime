@@ -1,35 +1,33 @@
 {
   "name": "nakimushihime",
   "version": "0.1.0",
-  "description": "nakimushihime Amane Marin s portfolia web",
   "private": true,
-  "author": "Amane Marin",
-  "license": "MIT",
+  "nakimushihime": "Nakimushi hime Amane Marins web",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "prettoer": "prettier --write .",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
+  "author": "Amane Marin",
+  "license": "MIT",
   "dependencies": {
-    "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^6.3.0",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.3.1",
     "three": "^0.139.2"
   },
   "devDependencies": {
-    "@types/node": "18.0.0",
-    "@types/react": "18.0.14",
-    "@types/react-dom": "18.0.5",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
-    "typescript": "4.7.4"
+    "prettier": "^2.6.2"
   }
 }
